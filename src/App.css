@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app {
+  margin: 0;
+  background: black;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+navigation .logo {
+    margin: 20px;
+}
+
+.nav_img {
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+    list-style-type: none;
+}    
+
+nav li {
+    margin: 0 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+          
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+main img {
+    max-width: 700px;
+}
+
+a {
+    color: white;
+}
+
+.albums_container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.albums_list {
+    padding: 0;
+    text-align: center;
+}
+
+.album_li {
+    list-style: none;
+}
+
+.back-link {
+    display: flex;
+    justify-content: center;
+}
+
+.form_container {
+    margin-top: 20px;
+}
+
+.form_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.form_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
